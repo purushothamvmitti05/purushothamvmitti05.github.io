@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purushotham V Mitti - Aspiring Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader">
+            <div class="loader-inner"></div>
+        </div>
+    </div>
+
+    <!-- Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Background Elements -->
+    <div class="bg-elements">
+        <div class="floating-shape shape-1"></div>
+        <div class="floating-shape shape-2"></div>
+        <div class="floating-shape shape-3"></div>
+        <div class="floating-shape shape-4"></div>
+    </div>
+
+    <!-- Mobile Menu Toggle -->
+    <button class="mobile-menu-toggle" id="mobile-menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar-content">
+            <div class="profile-section">
+                <div class="profile-image">
+                    <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo-XIihoxeCUQsEexfYIblvvqBCtiOuyh.jpeg" alt="Purushotham V Mitti">
+                    <div class="status-indicator"></div>
+                </div>
+                <h1 class="profile-name">Purushotham V Mitti</h1>
+                <p class="profile-title">Aspiring Developer</p>
+            </div>
+
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>purushothamvmitti05@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span>+91 8073866293</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-calendar"></i>
+                    <span>8 November, 2001</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Bengaluru, India</span>
+                </div>
+            </div>
+
+            <div class="social-links">
+                <a href="https://github.com/purushothamvmitti05" target="_blank" class="social-link">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/purushotham-v-mitti" target="_blank" class="social-link">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+
+            <button class="download-cv-btn" id="download-cv">
+                <i class="fas fa-download"></i>
+                Download CV
+            </button>
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Navigation -->
+        <nav class="main-nav">
+            <ul class="nav-list">
+                <li><a href="#about" class="nav-link active" data-section="about">About</a></li>
+                <li><a href="#resume" class="nav-link" data-section="resume">Resume</a></li>
+                <li><a href="#portfolio" class="nav-link" data-section="portfolio">Portfolio</a></li>
+                <li><a href="#blog" class="nav-link" data-section="blog">Blog</a></li>
+                <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Content Sections -->
+        <div class="content-wrapper">
+            <!-- About Section -->
+            <section id="about" class="content-section active">
+                <div class="section-header">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>I'm Purushotham V Mitti, a passionate and results-driven Computer Science and Design student from Bangalore, India. With hands-on experience in Full Stack Web Development, IoT, and UI/UX Design, I specialize in building scalable and user-centric solutions.</p>
+                        
+                        <p>My technical expertise spans Python, Java, JavaScript, MSSQL, and web technologies, along with a keen interest in the intersection of design and development. As a strategic developer, I have proven experience in Python development, backend automation, and full-stack web technologies.</p>
+                    </div>
+
+                    <div class="services-grid">
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="fas fa-palette"></i>
+                            </div>
+                            <h3>Web Design</h3>
+                            <p>Modern and responsive web design with user-centric approach and professional aesthetics.</p>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h3>Web Development</h3>
+                            <p>Full-stack web development using modern technologies and frameworks for scalable solutions.</p>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <h3>Software Development</h3>
+                            <p>Custom software solutions with Python, automation tools, and database optimization.</p>
+                        </div>
+                    </div>
+
+                    <div class="skills-section">
+                        <h3>Technical Skills</h3>
+                        <div class="skills-grid">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">HTML/CSS</span>
+                            <span class="skill-tag">MSSQL</span>
+                            <span class="skill-tag">SQL Automation</span>
+                            <span class="skill-tag">Flask</span>
+                            <span class="skill-tag">Machine Learning</span>
+                            <span class="skill-tag">IoT</span>
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">Linux</span>
+                            <span class="skill-tag">Aveva Reports</span>
+                        </div>
+                    </div>
+
+                    <div class="testimonials-section">
+                        <h3>Testimonials</h3>
+                        <div class="testimonials-grid">
+                            <div class="testimonial-card">
+                                <div class="testimonial-header">
+                                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=60&h=60&fit=crop&crop=face" alt="Rohit Patil">
+                                    <div class="testimonial-info">
+                                        <h4>Rohit Patil</h4>
+                                        <p>Project Manager</p>
+                                    </div>
+                                </div>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p>"Purushotham was hired to create a corporate identity. We were very pleased with the work done. He has a lot of experience and is very concerned about the needs of the client."</p>
+                            </div>
+                            <div class="testimonial-card">
+                                <div class="testimonial-header">
+                                    <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=60&h=60&fit=crop&crop=face" alt="Dipti">
+                                    <div class="testimonial-info">
+                                        <h4>Dipti</h4>
+                                        <p>Business Owner</p>
+                                    </div>
+                                </div>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p>"Purushotham was hired to create a corporate identity. We were very pleased with the work done. Professional approach and excellent technical skills."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Resume Section -->
+            <section id="resume" class="content-section">
+                <div class="section-header">
+                    <h2 class="section-title">Resume</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="resume-content">
+                    <div class="professional-summary">
+                        <h3>Professional Summary</h3>
+                        <p>Strategic and results-driven Computer Science and Design graduate with proven experience in Python development, backend automation, and full-stack web technologies. Skilled in building scalable, data-driven solutions using modern frameworks and tools. Adept at solving real-world problems through efficient code, optimized databases, and agile collaboration.</p>
+                    </div>
+
+                    <div class="resume-grid">
+                        <div class="resume-column">
+                            <h3>Education</h3>
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <div class="timeline-marker"></div>
+                                    <div class="timeline-content">
+                                        <h4>Bachelor of Engineering</h4>
+                                        <h5>Computer Science and Design</h5>
+                                        <p class="institution">K.S. Institute of Technology, Bangalore</p>
+                                        <p class="duration">2023 – 2025 | CGPA: 8.35</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h3>Certifications</h3>
+                            <div class="certifications-list">
+                                <div class="certification-item">
+                                    <i class="fas fa-award"></i>
+                                    <span>Full Stack Web Development – Varcons Technologies</span>
+                                </div>
+                                <div class="certification-item">
+                                    <i class="fas fa-award"></i>
+                                    <span>Python Programming – YBI Foundation</span>
+                                </div>
+                                <div class="certification-item">
+                                    <i class="fas fa-award"></i>
+                                    <span>Introduction to Cloud Computing – IBM</span>
+                                </div>
+                                <div class="certification-item">
+                                    <i class="fas fa-award"></i>
+                                    <span>Java Programming – Great Learning</span>
+                                </div>
+                                <div class="certification-item">
+                                    <i class="fas fa-award"></i>
+                                    <span>Industrial Robotics – GTTC-Siemens</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="resume-column">
+                            <h3>Experience</h3>
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <div class="timeline-marker"></div>
+                                    <div class="timeline-content">
+                                        <h4>Software Developer Intern</h4>
+                                        <h5>Utthunga Technologies Pvt Ltd</h5>
+                                        <p class="duration">February 2025 – May 2025</p>
+                                        <p>Automated database operations using MSSQL and Aveva Reports, reducing manual tasks by 30%. Optimized stored procedures improving response time by 25%.</p>
+                                        <div class="skills-tags">
+                                            <span>Python</span>
+                                            <span>MSSQL</span>
+                                            <span>Aveva Reports</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-marker"></div>
+                                    <div class="timeline-content">
+                                        <h4>Full Stack Web Development Intern</h4>
+                                        <h5>Varcons Technologies Pvt Ltd</h5>
+                                        <p class="duration">April 2024 – May 2024</p>
+                                        <p>Developed Student Bus Pass System using PHP and SQL, reducing processing time by 40% for 500+ students. Delivered project two weeks ahead of schedule.</p>
+                                        <div class="skills-tags">
+                                            <span>PHP</span>
+                                            <span>SQL</span>
+                                            <span>JavaScript</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-marker"></div>
+                                    <div class="timeline-content">
+                                        <h4>Python Programming Intern</h4>
+                                        <h5>YBI Foundation</h5>
+                                        <p class="duration">August 2024 – October 2024</p>
+                                        <p>Developed Python scripts for data processing and automation. Built real-time projects using NumPy, Pandas, and Matplotlib.</p>
+                                        <div class="skills-tags">
+                                            <span>Python</span>
+                                            <span>NumPy</span>
+                                            <span>Pandas</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-marker"></div>
+                                    <div class="timeline-content">
+                                        <h4>IoT and Micro Python Intern</h4>
+                                        <h5>Cranes Varsity</h5>
+                                        <p class="duration">October 2023 – December 2023</p>
+                                        <p>Designed Gas Leakage Detector using ESP32 and Classroom Automation System. Configured MQTT protocol for IoT communication.</p>
+                                        <div class="skills-tags">
+                                            <span>IoT</span>
+                                            <span>ESP32</span>
+                                            <span>MQTT</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Portfolio Section -->
+            <section id="portfolio" class="content-section">
+                <div class="section-header">
+                    <h2 class="section-title">Portfolio</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="portfolio-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web Development</button>
+                    <button class="filter-btn" data-filter="ml">Machine Learning</button>
+                    <button class="filter-btn" data-filter="ui">UI Design</button>
+                    <button class="filter-btn" data-filter="app">Applications</button>
+                </div>
+
+                <div class="portfolio-grid">
+                    <!-- Machine Learning Project -->
+                    <div class="portfolio-item" data-category="ml">
+                        <div class="portfolio-image">
+                            <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=300&fit=crop" alt="Medico Project">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-actions">
+                                    <a href="https://github.com/purushothamvmitti05" target="_blank" class="portfolio-link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="#" class="portfolio-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <span class="portfolio-category">Machine Learning</span>
+                            <h3>Medico - Medical Guidance System</h3>
+                            <p>ML-powered healthcare platform with disease prediction, medicine recommendations, and blood bank assistance using Random Forest algorithm</p>
+                            <div class="portfolio-tech">
+                                <span>Python</span>
+                                <span>Flask</span>
+                                <span>Machine Learning</span>
+                                <span>Random Forest</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Web Development Projects -->
+                    <div class="portfolio-item" data-category="web">
+                        <div class="portfolio-image">
+                            <img src="https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=400&h=300&fit=crop" alt="Animal Rescue">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-actions">
+                                    <a href="https://github.com/purushothamvmitti05" target="_blank" class="portfolio-link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="#" class="portfolio-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <span class="portfolio-category">Web Development</span>
+                            <h3>Animal Rescue Web Application</h3>
+                            <p>Platform for uploading injured animal images, notifying nearby veterinary hospitals with QR-based donation system</p>
+                            <div class="portfolio-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>QR Integration</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" data-category="web">
+                        <div class="portfolio-image">
+                            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop" alt="Orizon Food Delivery">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-actions">
+                                    <a href="https://github.com/purushothamvmitti05" target="_blank" class="portfolio-link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="#" class="portfolio-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <span class="portfolio-category">Web Development</span>
+                            <h3>Orizon - Food Delivery System</h3>
+                            <p>Online food ordering platform with menu browsing, order placement, and management system</p>
+                            <div class="portfolio-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>MSSQL</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" data-category="web">
+                        <div class="portfolio-image">
+                            <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=400&h=300&fit=crop" alt="Portfolio">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-actions">
+                                    <a href="https://github.com/purushothamvmitti05" target="_blank" class="portfolio-link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="https://purushothamvmitti05.github.io/" target="_blank" class="portfolio-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <span class="portfolio-category">Web Development</span>
+                            <h3>Professional Portfolio</h3>
+                            <p>Comprehensive online portfolio showcasing technical skills, projects, and achievements with interactive design</p>
+                            <div class="portfolio-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>Responsive Design</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- UI Design Project -->
+                    <div class="portfolio-item" data-category="ui">
+                        <div class="portfolio-image">
+                            <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=400&h=300&fit=crop" alt="MetaSpark Healthcare">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-actions">
+                                    <a href="#" class="portfolio-link">
+                                        <i class="fab fa-figma"></i>
+                                    </a>
+                                    <a href="#" class="portfolio-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <span class="portfolio-category">UI Design</span>
+                            <h3>MetaSpark - Healthcare UI</h3>
+                            <p>Modern healthcare appointment booking interface designed in Figma with user-centric approach</p>
+                            <div class="portfolio-tech">
+                                <span>Figma</span>
+                                <span>UI/UX Design</span>
+                                <span>Prototyping</span>
+                                <span>User Research</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Application Project -->
+                    <div class="portfolio-item" data-category="app">
+                        <div class="portfolio-image">
+                            <img src="https://images.unsplash.com/photo-1606868306217-dbf5046868d2?w=400&h=300&fit=crop" alt="Quiz Application">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-actions">
+                                    <a href="https://github.com/purushothamvmitti05" target="_blank" class="portfolio-link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="https://v0-python-quiz-app-six.vercel.app/" target="_blank" class="portfolio-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <span class="portfolio-category">Applications</span>
+                            <h3>Online Quiz Application</h3>
+                            <p>Interactive quiz platform with admin panel, question management, and user tracking system</p>
+                            <div class="portfolio-tech">
+                                <span>Python</span>
+                                <span>Flask</span>
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Blog Section -->
+            <section id="blog" class="content-section">
+                <div class="section-header">
+                    <h2 class="section-title">Blog & Publications</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="blog-content">
+                    <div class="publication-card">
+                        <div class="publication-header">
+                            <div class="publication-icon">
+                                <i class="fas fa-file-alt"></i>
+                            </div>
+                            <div class="publication-info">
+                                <h3>MEDICO: SPECIALIZED MEDICINE GUIDANCE & BLOOD BANK ASSISTANCE</h3>
+                                <div class="publication-meta">
+                                    <span class="journal">International Research Journal of Modernization in Engineering Technology and Science</span>
+                                    <span class="badge">Research Paper</span>
+                                </div>
+                                <div class="publication-details">
+                                    <span>Volume: 07/Issue: 04/April-2025</span>
+                                    <span>Impact Factor: 8.187</span>
+                                    <span>e-ISSN: 2582-5208</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="publication-content">
+                            <div class="authors">
+                                <h4>Authors</h4>
+                                <p>Dhanush BK, Kusum Pakira, <strong>Purushotham V Mitti</strong>, Mamatha C</p>
+                                <p class="affiliation">Department of Computer Science & Design, K S Institute of Technology, Bengaluru, Karnataka, India</p>
+                            </div>
+
+                            <div class="abstract">
+                                <h4>Abstract</h4>
+                                <p>This paper introduces Medico, a unique digital platform crafted to offer thorough guidance on medicine and support for blood banks, making healthcare more accessible with its organized and user-friendly design. It allows users to delve into medicine suggestions tailored to specific medical conditions while providing precise information about drugs, including dosages and safety tips, to help them make informed choices.</p>
+                            </div>
+
+                            <div class="key-features">
+                                <h4>Key Features</h4>
+                                <ul>
+                                    <li>Machine Learning-powered disease prediction using Random Forest algorithm</li>
+                                    <li>Comprehensive medicine recommendation system</li>
+                                    <li>Blood bank assistance with real-time availability tracking</li>
+                                    <li>User-friendly interface with responsive design</li>
+                                    <li>Secure data handling and privacy protection</li>
+                                </ul>
+                            </div>
+
+                            <div class="technologies">
+                                <h4>Technologies Used</h4>
+                                <div class="tech-tags">
+                                    <span>Python</span>
+                                    <span>Flask</span>
+                                    <span>Machine Learning</span>
+                                    <span>Random Forest</span>
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>JavaScript</span>
+                                    <span>SQLite</span>
+                                </div>
+                            </div>
+
+                            <div class="doi">
+                                <p><strong>DOI:</strong> <a href="https://www.doi.org/10.56726/IRJMETS72284" target="_blank">https://www.doi.org/10.56726/IRJMETS72284</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog-cta">
+                        <p>More blog posts and publications coming soon...</p>
+                        <button class="cta-btn">
+                            <i class="fas fa-book-open"></i>
+                            View All Publications
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="content-section">
+                <div class="section-header">
+                    <h2 class="section-title">Contact</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="contact-content">
+                    <div class="contact-info-section">
+                        <h3>Get In Touch</h3>
+                        <div class="contact-details">
+                            <div class="contact-detail">
+                                <i class="fas fa-envelope"></i>
+                                <span>purushothamvmitti05@gmail.com</span>
+                            </div>
+                            <div class="contact-detail">
+                                <i class="fas fa-phone"></i>
+                                <span>+91 8073866293</span>
+                            </div>
+                            <div class="contact-detail">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Bengaluru, India</span>
+                            </div>
+                            <div class="contact-detail">
+                                <i class="fab fa-github"></i>
+                                <a href="https://github.com/purushothamvmitti05" target="_blank">github.com/purushothamvmitti05</a>
+                            </div>
+                            <div class="contact-detail">
+                                <i class="fab fa-linkedin"></i>
+                                <a href="https://linkedin.com/in/purushotham-v-mitti" target="_blank">linkedin.com/in/purushotham-v-mitti</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-section">
+                        <form class="contact-form" id="contact-form">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">
+                                <span>Send Message</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
