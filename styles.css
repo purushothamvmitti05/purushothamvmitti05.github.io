@@ -323,14 +323,13 @@ body {
   margin-bottom: 30px;
 }
 
-.contact-item {
-  display: flex;
-  align-items: center;
-  padding: 12px 16px;
-  margin-bottom: 8px;
-  background: rgba(255, 255, 255, 0.05);
-  border-radius: 12px;
-  transition: all 0.3s ease;
+.contact-item a {
+  color: var(--text-secondary);
+  font-size: 14px;
+  text-decoration: none;
+  word-break: break-all;
+  max-width: 100%;
+  overflow-wrap: break-word;
 }
 
 .contact-item:hover {
