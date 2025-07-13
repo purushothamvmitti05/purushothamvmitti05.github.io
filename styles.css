@@ -348,9 +348,15 @@ body {
   margin-right: 12px;
 }
 
-.contact-item span {
+.contact-item span,
+.contact-item a {
   color: var(--text-secondary);
   font-size: 14px;
+  white-space: nowrap;        /* ✅ prevents break */
+  overflow: hidden;           /* ✅ hides extra */
+  text-overflow: ellipsis;    /* ✅ adds "..." if overflow */
+  display: inline-block;
+  max-width: 100%;
 }
 
 .social-links {
